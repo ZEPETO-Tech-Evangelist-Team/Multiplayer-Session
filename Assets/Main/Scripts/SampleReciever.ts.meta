@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: ce8d7dd542e3134468db851baa433fac
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: -1123457745, guid: 54cf806323ffe4418a4ce4cc63fe6b9d, type: 3}
+  isAssemblyDeclarations: 0
+  assembly: 
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: '{"source":"\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\",
+    { value: true });\r\nconst ZEPETO_Script_1 = require(\"ZEPETO.Script\");\r\nclass
+    SampleReciever extends ZEPETO_Script_1.ZepetoScriptBehaviour {\r\n    Start()
+    {\r\n        this.world.add_RoomJoined((room) => {\r\n            room.AddMessageHandler(\"Sample
+    Multiplayer Message\", (message) => {\r\n                console.log(\"Hey! I''ve
+    been got.\");\r\n            });\r\n        });\r\n    }\r\n}\r\nexports.default
+    = SampleReciever;\r\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiU2FtcGxlUmVjaWV2ZXIuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJTYW1wbGVSZWNpZXZlci50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUNBLGlEQUFxRDtBQUdyRCxNQUFxQixjQUFlLFNBQVEscUNBQXFCO0lBTTdELEtBQUs7UUFFRCxJQUFJLENBQUMsS0FBSyxnQkFBZSxDQUFDLElBQVUsRUFBRSxFQUFFO1lBRXBDLElBQUksQ0FBQyxpQkFBaUIsQ0FBQyw0QkFBNEIsRUFBRSxDQUFDLE9BQWdCLEVBQUUsRUFBRTtnQkFFdEUsT0FBTyxDQUFDLEdBQUcsQ0FBQyxxQkFBcUIsQ0FBQyxDQUFDO1lBQ3ZDLENBQUMsQ0FBQyxDQUFDO1FBQ1AsQ0FBQyxFQUFBO0lBQ0wsQ0FBQztDQUVKO0FBakJELGlDQWlCQyJ9","assetPath":"Assets/Main/Scripts/SampleReciever.ts","manifest":{"properties":[{"assembly":"ZEPETO.World","name":"world","type":"ZEPETO.World.ZepetoWorldMultiplay","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[]}],"name":"SampleReciever","description":"","hasAnimatorMove":false},"isCompiled":true}'
+  typescriptHash: fea32b0b9a8ecb6bf3432da70da5a0cf
+  onlyWriteTrigger: 0
